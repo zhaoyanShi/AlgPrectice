@@ -41,3 +41,15 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# ignore project related files
+.idea
+.classpath
+.project
+.settings
+*.log
+target/
+logs/
+test-output/
+bin/
+
