@@ -6,13 +6,13 @@ public class MaxDepth_Test {
         MaxDepth maxDepth = new MaxDepth();
 
         int depth;
-        depth = maxDepth.maxDepth( test.buildTree());
+        depth = maxDepth.maxDepth_BFS( test.buildTree());
         System.out.println(depth + "[expected 3]");
 
-        depth = maxDepth.maxDepth( null);
+        depth = maxDepth.maxDepth_BFS( null);
         System.out.println(depth + "[expected 0]");
 
-        depth = maxDepth.maxDepth( new TreeNode(3));
+        depth = maxDepth.maxDepth_recursion( new TreeNode(3));
         System.out.println(depth + "[expected 1]");
 
     }
